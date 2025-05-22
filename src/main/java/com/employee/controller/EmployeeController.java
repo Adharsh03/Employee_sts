@@ -57,7 +57,7 @@ public class EmployeeController {
 		return es.patch(n,e);
 	}
 	
-	@GetMapping(value="/getSecondMax")
+	@GetMapping(value="/getSecondMaximum")
 	public Employee getAgeMax() {
 		return es.getAgeMax();
 	}
